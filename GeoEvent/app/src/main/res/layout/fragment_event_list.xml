@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventListFragment">
+
+    <!-- ImageView con el ID event_image -->
+    <!-- ListView con el ID event_list -->
+    <!-- Puedes agregar más vistas aquí, como el TextView -->
+    <ListView
+        android:id="@+id/event_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:divider="@color/white"
+        android:dividerHeight="0.5dp"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold" />
+
+</FrameLayout>

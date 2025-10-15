@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventListFragment">
+
+    <!-- EditText para el título del evento -->
+    <EditText
+        android:id="@+id/event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter event title"
+        android:inputType="text"
+        android:translationY="350dp" />
+
+    <!-- EditText para la descripción del evento -->
+
+    <!-- Botón para tomar una foto -->
+
+    <EditText
+        android:id="@+id/event_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter event description"
+        android:inputType="textMultiLine"
+        android:translationY="400dp" />
+
+    <Button
+        android:id="@+id/take_photo_button"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#415659"
+        android:text="Tomar Foto"
+        android:textStyle="bold"
+        android:translationY="250dp" />
+
+    <!-- Botón para guardar el evento -->
+    <Button
+        android:id="@+id/save_event_button"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#415659"
+        android:text="Guardar Evento"
+        android:textStyle="bold"
+        android:translationY="300dp" />
+
+
+    <ImageView
+        android:id="@+id/event_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/event_image"
+        android:scaleType="centerCrop"
+        android:translationX="100dp"
+        android:translationY="60dp" />
+
+</FrameLayout>

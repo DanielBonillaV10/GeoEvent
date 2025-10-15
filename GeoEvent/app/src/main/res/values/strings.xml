@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GeoEvent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="event_image">Imagen del evento</string>
+
+</resources>
